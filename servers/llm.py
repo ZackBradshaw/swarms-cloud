@@ -47,6 +47,11 @@ from swarms_cloud.openai_protocol import (  # noqa: E501
 )
 from lmdeploy.serve.qos_engine.qos_engine import QosEngine
 
+import openmeter
+import dotenv
+
+dotenv.load_dotenv()
+openmeter.init(api_key=os.getenv("OPENMETER_API_KEY"))
 
 class VariableInterface:
     """A IO interface maintaining variables."""
