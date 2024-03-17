@@ -21,3 +21,4 @@ huggingface-hub
 optimum
 auto-gptq
 whisperx
+openmeter
