@@ -34,6 +34,7 @@ setup: |
 
   # Setup cloudwatch agent for gpu usage
   wget https://s3.us-west-2.amazonaws.com/amazoncloudwatch-agent-us-west-2/ubuntu/arm64/latest/amazon-cloudwatch-agent.deb
+  sudo dpkg -i -E ./amazon-cloudwatch-agent.deb
   sudo systemctl enable dlami-cloudwatch-agent@all
   sudo systemctl start dlami-cloudwatch-agent@all
 
