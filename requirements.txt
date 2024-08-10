@@ -17,11 +17,17 @@ transformers_stream_generator
 bitsandbytes
 peft
 accelerate
-transformers==4.37.2
+transformers==4.39.3
 huggingface-hub
-optimumgit ad
+optimum
 auto-gptq
 whisperx
 shortuuid
-exxa
 hf_transfer
+swarms
+fastapi
+uvicorn
+tiktoken
+pydantic
+asyncio
+swarms-cloud
