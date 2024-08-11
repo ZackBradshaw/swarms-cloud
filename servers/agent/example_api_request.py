@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "http://localhost:8080/v1/agent/completions"
+url = "http://localhost:8000/v1/agent/completions"
 
 data = {
     "agent_name": "Financial Assistant",
